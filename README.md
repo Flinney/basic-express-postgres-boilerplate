@@ -2,11 +2,13 @@
 
 Quick boiler plate setup for an express server using knex and a cloud-based postgres db.
 
+## Prerequisites
+
+* A cloud based postgres db (i.e. [ElephantSQL](https://www.elephantsql.com/))
+
 ## Setup
 
 1. `npm install`
-
-1. Setup cloud based postgres db (i.e. [ElephantSQL](https://www.elephantsql.com/))
 
 1. Run `cp .env.sample .env` and insert your db's full url in the `DATABASE_URL` variable within the newly created `.env` file.
 
