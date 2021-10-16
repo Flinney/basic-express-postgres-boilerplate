@@ -4,8 +4,6 @@ Quick boiler plate setup for an express server using knex and a cloud-based post
 
 ## Setup
 
-1. Git clone the repo `git clone [url]` and remove origin `git remote remove origin`
-
 1. `npm install`
 
 1. Setup cloud based postgres db (i.e. [ElephantSQL](https://www.elephantsql.com/))
