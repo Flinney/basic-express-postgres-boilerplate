@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res, next) => {
-  res.status(200).send(`Hello World!`);
+  res.status(200).json({ data: `Hello World!` });
 });
 
 // Error handlers

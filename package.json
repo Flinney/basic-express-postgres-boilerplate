@@ -1,5 +1,5 @@
 {
-  "name": "Morons-Gaming-Scoring-Backend",
+  "name": "basic-express-postgres-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "src/app.js",
