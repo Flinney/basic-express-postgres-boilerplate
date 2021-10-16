@@ -10,7 +10,7 @@ Quick boiler plate setup for an express server using knex and a cloud-based post
 
 1. Setup cloud based postgres db (i.e. [ElephantSQL](https://www.elephantsql.com/))
 
-1. Run `cp .env.sample .env` and insert your db's full url in the `DATABASE_URL` variable.
+1. Run `cp .env.sample .env` and insert your db's full url in the `DATABASE_URL` variable within the newly created `.env` file.
 
 1. `npm run dev` will now start the server in development mode (<http://localhost:5000/> by default) and a simple `GET` request should return a `Hello World!` message in JSON.
 
