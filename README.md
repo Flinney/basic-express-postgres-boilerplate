@@ -17,3 +17,5 @@ Quick boiler plate setup for an express server using knex and a cloud-based post
 1. Create migration and seed files as needed to populate db (see <https://knexjs.org/#Migrations> for more info).
 
 1. `IMPORTANT:` CORS is enabled for the entire server by default. If you do not want every request accessible from cross-origins, see <https://www.npmjs.com/package/cors> for instruction on limiting CORS to single routes or methods.
+
+1. Enjoy!
